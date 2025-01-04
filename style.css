@@ -1,9 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
-.poppins {
+.poppins-bold {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
+}
 
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -12,10 +22,39 @@ header {
   align-items: center;
   background-color: #fff;
   max-width: 100%;
+  padding: 0 12px 0 12px;
 }
 
 header h1 {
   color:#6070FF;
   font-weight: 700;
   font-size: 18px;;
+}
+
+.fa-solid {
+  color: #6070FF;
+  font-size: 22px;
+}
+
+.headline {
+  padding: 0 12px 0 12px;
+  font-size: 35px;
+  line-height: 60px;
+  color: #172B4D;
+}
+
+.headline p {
+  color: #344563;
+  font-size: 18px;
+  line-height: 35px;
+  margin: 10px 0 10px 0
+}
+
+.headline H2 {
+  font-size: 16px;
+  color: #7F8CFF;
+}
+
+.social-links {
+  color: #505F79;
 }
