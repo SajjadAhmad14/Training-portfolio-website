@@ -28,7 +28,7 @@ header {
 header h1 {
   color:#6070FF;
   font-weight: 700;
-  font-size: 18px;;
+  font-size: 18px;
 }
 
 .fa-solid {
@@ -37,10 +37,17 @@ header h1 {
 }
 
 .headline {
-  padding: 0 12px 0 12px;
+  padding: 150px 12px 100px 12px;
   font-size: 35px;
   line-height: 60px;
   color: #172B4D;
+  background-image: url("./images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 40%;
+  border: 1px solid red;
+  background-color: #fff;
+  border-bottom-left-radius: 25px;
 }
 
 .headline p {
@@ -50,11 +57,53 @@ header h1 {
   margin: 10px 0 10px 0
 }
 
-.headline H2 {
+.headline h2 {
   font-size: 16px;
   color: #7F8CFF;
 }
 
 .social-links {
   color: #505F79;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  align-content: center;
+  justify-content: center;
+  background-color: #DFE1E6;
+  padding-top: 100px;
+}
+
+.project {
+  padding: 20px;
+  background-color: #fff;
+  justify-self: right;
+  border: 1px solid #DFE1E6;
+  border-radius: 5%;
+}
+
+
+.project img {
+  width: 295px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.project .details {
+  border: 1px solid red;
+  display: flex;
+  justify-content:baseline
+}
+
+.project ul {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.project ul li {
+  margin-left: 5px;
 }
