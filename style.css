@@ -10,6 +10,12 @@
   font-style: normal;
 }
 
+.poppins-semi-bold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .poppins-regular {
   font-family: "Poppins", serif;
   font-weight: 400;
@@ -92,18 +98,33 @@ header h1 {
 }
 
 .project .details {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content:baseline
 }
 
-.project ul {
-  display: flex;
-  border: 1px solid red;
-  justify-content: space-between;
-  margin-left: 10px;
+.details h3 {
+  margin-right: 15px;
 }
 
-.project ul li {
-  margin-left: 5px;
+.project ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project ul .role {
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+.project .technologies {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.technologies li {
+  margin-right: 10px;
+  color: #6070FF;
+  background-color: #EBEBFF;
 }
