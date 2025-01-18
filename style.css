@@ -189,6 +189,34 @@ header h1 {
   border-top-right-radius: 70px;
 }
 
-.about-me {
-  border: 1px solid red
+.about-me h4 {
+  color: #172B4D;
+  font-size: 40px;
+}
+
+.about-me p {
+  color: #344563;
+  line-height: 24px;
+}
+
+.about-me h5 {
+  color: #7F8CFF;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.about-me .social-links {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.about-me button {
+  color: #396DF2;
+  font-size: 17px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid #6070FF;
+  padding: 10px;
+  border-radius: 6px;
 }
